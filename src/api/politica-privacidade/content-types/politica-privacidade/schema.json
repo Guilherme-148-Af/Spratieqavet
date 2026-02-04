@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "politica_privacidades",
+  "info": {
+    "singularName": "politica-privacidade",
+    "pluralName": "politica-privacidades",
+    "displayName": "politica_privacidade"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

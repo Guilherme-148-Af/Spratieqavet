@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organizacao_escolars",
+  "info": {
+    "singularName": "organizacao-escolar",
+    "pluralName": "organizacao-escolars",
+    "displayName": "organizacao_escolar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

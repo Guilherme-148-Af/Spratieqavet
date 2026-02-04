@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "regulamento_internos",
+  "info": {
+    "singularName": "regulamento-interno",
+    "pluralName": "regulamento-internos",
+    "displayName": "regulamento_interno"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

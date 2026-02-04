@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "selo_conformidadeeqavets",
+  "info": {
+    "singularName": "selo-conformidadeeqavet",
+    "pluralName": "selo-conformidadeeqavets",
+    "displayName": "selo_conformidadeeqavet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

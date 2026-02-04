@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "palo_integradoeqavets",
+  "info": {
+    "singularName": "palo-integradoeqavet",
+    "pluralName": "palo-integradoeqavets",
+    "displayName": "plano_integradoeqavet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    }
+  }
+}

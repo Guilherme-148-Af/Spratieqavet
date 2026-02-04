@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "relatorios_acompanhamentos",
+  "info": {
+    "singularName": "relatorios-acompanhamento",
+    "pluralName": "relatorios-acompanhamentos",
+    "displayName": "relatorios_acompanhamento"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks",
+      "required": false
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

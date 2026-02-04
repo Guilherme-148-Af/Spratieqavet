@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "relatorio_operadors",
+  "info": {
+    "singularName": "relatorio-operador",
+    "pluralName": "relatorio-operadors",
+    "displayName": "relatorio_operador"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

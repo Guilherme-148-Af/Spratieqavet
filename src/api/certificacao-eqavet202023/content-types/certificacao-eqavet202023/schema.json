@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "certificacao_eqavet202023s",
+  "info": {
+    "singularName": "certificacao-eqavet202023",
+    "pluralName": "certificacao-eqavet202023s",
+    "displayName": "certificacao_eqavet202023"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

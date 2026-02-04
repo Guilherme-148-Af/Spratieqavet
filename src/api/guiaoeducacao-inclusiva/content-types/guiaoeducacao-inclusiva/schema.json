@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guiaoeducacao_inclusivas",
+  "info": {
+    "singularName": "guiaoeducacao-inclusiva",
+    "pluralName": "guiaoeducacao-inclusivas",
+    "displayName": "guiaoeducacao_inclusiva"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

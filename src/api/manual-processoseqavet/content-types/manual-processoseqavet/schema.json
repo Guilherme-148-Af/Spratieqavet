@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manual_processoseqavets",
+  "info": {
+    "singularName": "manual-processoseqavet",
+    "pluralName": "manual-processoseqavets",
+    "displayName": "manual_processoseqavet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documentobase_eqavets",
+  "info": {
+    "singularName": "documentobase-eqavet",
+    "pluralName": "documentobase-eqavets",
+    "displayName": "documentobase_eqavet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
